@@ -39,8 +39,8 @@ dropdown = Select( browser.find_element(By.ID, "carBrands"))
 if dropdown.is_multiple:
     print("This dropdown is multiselect")
 else:
-    print("This dropdown is not multiselect ")
+    print("This dropdown is not multiselected ")
 
 time.sleep(5)
 
-browser.quit()
+browser.quit()g
