@@ -42,11 +42,15 @@ time.sleep(3)
 
 alert = browser.switch_to.alert
 print("alert message", alert.text)
-alert.accept()
+
+
+time.sleep(2)
+alert.send_keys("hello bor")
 time.sleep(2)
 
 simple_alert = browser.switch_to.alert
 print("simple alert", simple_alert.text)
+
 simple_alert.accept()
 
 
